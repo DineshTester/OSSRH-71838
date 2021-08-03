@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <name>Test Project for Push Maven Repo</name>
-    <description>Test sample for publish this into maven central repo </description>
-    <url>https://github.com/DineshTester/Test_Pro1</url>
+    <description>Test sample for publish this into maven central repo</description>
+    <url>https://github.com/DineshTester/OSSRH-71838</url>
 
     <licenses>
         <license>
@@ -20,9 +20,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/DineshTester/Test_Pro1.git</connection>
-        <developerConnection>scm:git:ssh://github.com:DineshTester/Test_Pro1.git</developerConnection>
-        <url>https://github.com/DineshTester/Test_Pro1</url>
+        <connection>scm:git:git://github.com/DineshTester/OSSRH-71838.git</connection>
+        <developerConnection>scm:git:ssh://github.com/DineshTester/OSSRH-71838.git</developerConnection>
+        <url>https://github.com/DineshTester/OSSRH-71838T</url>
     </scm>
 
 
