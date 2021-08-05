@@ -6,40 +6,8 @@
 
     <groupId>io.github.DineshTester</groupId>
     <artifactId>Test_Pro1</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
-    <name>Test Project for Push Maven Repo</name>
-    <description>Test sample for publish this into maven central repo</description>
-    <url>https://github.com/DineshTester/OSSRH-71838</url>
-
-    <licenses>
-        <license>
-            <name>MIT License</name>
-            <url>http://www.opensource.org/licenses/mit-license.php</url>
-        </license>
-    </licenses>
-
-    <scm>
-        <connection>scm:git:git://github.com/DineshTester/OSSRH-71838.git</connection>
-        <developerConnection>scm:git:ssh://github.com/DineshTester/OSSRH-71838.git</developerConnection>
-        <url>https://github.com/DineshTester/OSSRH-71838T</url>
-    </scm>
-
-
-
-    <developers>
-        <developer>
-            <name>Dinesh N</name>
-            <email>er.n.dinesh2017@gmail.com</email>
-            <organization>com.github.DineshTester</organization>
-            <organizationUrl>https://github.com/DineshTester/</organizationUrl>
-        </developer>
-    </developers>
-
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
 
     <dependencies>
 

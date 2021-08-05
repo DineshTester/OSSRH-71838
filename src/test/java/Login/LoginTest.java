@@ -1,6 +1,5 @@
 package Login;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -22,12 +21,13 @@ public class LoginTest {
 
         boolean fbLogo = driver.findElement(By.xpath("//img[@class]")).isDisplayed();
 
-        if(fbLogo = true){
+        if(fbLogo){
             File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(screenshot, new File("F:/Practise Intellij/images/screenshot/verify.png"));
         }else{
             System.out.println("User not visit to Facebook page");
         }
-
+        
+        driver.quit();
     }
 }
