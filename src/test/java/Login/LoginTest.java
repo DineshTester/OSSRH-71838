@@ -27,7 +27,7 @@ public class LoginTest {
         }else{
             System.out.println("User not visit to Facebook page");
         }
-        
+
         driver.quit();
     }
 }
